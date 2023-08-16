@@ -27,6 +27,10 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return (
+      <div class="bg-indigo-500 p-6 rounded-md flex justify-center">
+        <h1 class="text-white font-sans font-bold">Hello, World! I'm {this.getText()}</h1>
+      </div>
+    );
   }
 }
